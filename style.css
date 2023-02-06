@@ -88,7 +88,7 @@ body {
     cursor: pointer;
 }
 
-.icon-block img {
+.apple {
     margin: 0px auto;
     width: 86%;
     animation: Rotate-reverse 20s linear infinite;
@@ -157,6 +157,11 @@ body {
 
     clip-path: circle();
 }
+.icn-spinner {
+    animation: img-rotate 12s infinite;
+    display: inline-block;
+  }
+  
 
 /* keyframe animation */
 
@@ -220,7 +225,7 @@ body {
     }
 }
 
-@keyframes img-rotate {
+@keyframes svg-rotate {
     from {
         transform: rotate(-45deg);
     }
@@ -230,7 +235,7 @@ body {
     }
 }
 
-@-webkit-keyframes img-rotate {
+@-webkit-keyframes svg-rotate {
     from {
         -webkit-transform: rotate(-45deg);
     }
