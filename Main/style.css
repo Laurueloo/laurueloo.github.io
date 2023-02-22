@@ -11,21 +11,80 @@ html {
     padding: 0px;
     outline: none;
 }
+.footer{
+    text-align: center;
+    font-family:'Alegreya', serif;
+    color: #b785bb;
+    font-size: 12px;
+    padding: 2rem;
 
+}
+.button{
+    font-size: 2rem;
+    background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-weight: bold;
+    text-align: center;
+}
 body {
     background-color: #E2DFD2;
 }
 
 #intro {
     text-align: center;
-    font-family: 'Quicksand', sans-serif;;
+    font-family:'Sorts Mill Goudy', serif;
 }
 
 .beginning {
     text-align: center;
-    border: 3px black;
+    border: 3px white;
     padding: 50px;
     font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    color: white
+    ;
+}
+.wavy {
+    position: relative;
+}
+.wavy span {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    animation: animate 1s ease-in-out infinite;
+}
+@keyframes animate {
+    0%
+    {
+        transform: translateY(0px);
+    }
+    20%
+    {
+        transform: translateY(-20px);
+    }
+    40%, 100%
+    {
+        transform: translateY(0px);
+    }
+}
+.description{
+    text-align: center;
+    
+}
+.titles{
+    color: white;
+    width: 30rem;
+    font-size: 12px;
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
 }
 
 .main-container {
@@ -61,13 +120,13 @@ body {
     -webkit-animation: Rotate 20s linear infinite;
 }
 
-.grow {
-    transition: all .2s ease-in-out;
-}
-
-.grow:hover {
-    transform: scale(1.5);
-}
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.5); 
+    }
 
 .icon-block {
     width: 64px;
@@ -90,9 +149,10 @@ body {
 
 .apple {
     margin: 0px auto;
-    width: 86%;
+    width: 40%;
     animation: Rotate-reverse 20s linear infinite;
     -webkit-animation: Rotate-reverse 20s linear infinite;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .icon-block:first-child {
@@ -136,6 +196,7 @@ body {
     height: 75%;
     border: 3px solid #FBEAEB;
     border-radius: 50%;
+    
 }
 
 .circle .icon-block img {

@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(133, 149, 200);
+}
+.box{
+    background-color: rgba(86, 86, 173, 0.846);
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-family: 'Alegreya SC', serif;
+    font-size: 50px;
+    text-align: left;
+    padding: 30px;
+}
+a:visited{
+    color: rgb(194, 170, 239);
+}
+.description{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 50px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.link{
+    font-size: 20px;
+
+}
+/*
+br{
+    margin-top: 2px;
+    line-height: 2px;
+}
